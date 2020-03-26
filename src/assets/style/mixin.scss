@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import "./varibale.scss";
+// 首页标题颜色
+@mixin font_color() {
+    [data-theme="1"] & {
+        color: $color;
+    }
+}
+
+//字体主题颜色
+@mixin font_color1() {
+    [data-theme="1"] & {
+        color: $color1;
+    }
+}
+
+//测评题目选中字体颜色
+@mixin font_color2 {
+    [data-theme="1"] & {
+        color: $color3;
+    }
+}
+
+//退出计划按钮颜色
+@mixin font_color3 {
+    [data-theme="1"] & {
+        color: $color4;
+    }
+}
+
+//按钮主题背景色
+@mixin bg_color {
+    [data-theme="1"] & {
+        background-color: $color1;
+    }
+}
+
+//题目选项选中背景色
+@mixin bg_color1 {
+    [data-theme="1"] & {
+        background-color: $color5;
+    }
+}
+
+//按钮橙色背景
+@mixin bg_button {
+    [data-theme="1"] & {
+        background-color: $color6;
+    }
+}
+
+//退出计划按钮边框颜色
+@mixin border_color {
+    [data-theme="1"] & {
+        border-color: $color4;
+    }
+}
+
+//主题按钮边框颜色
+@mixin border_color1 {
+    [data-theme="1"] & {
+        border-color: $color1;
+    }
+}
+
+//结束训练按钮背景色
+@mixin bg_button1 {
+    [data-theme="1"] & {
+        background-color: $color7;
+    }
+}
